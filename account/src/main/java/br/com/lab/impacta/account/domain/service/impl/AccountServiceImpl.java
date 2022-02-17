@@ -7,11 +7,13 @@ import br.com.lab.impacta.account.domain.service.AccountService;
 import br.com.lab.impacta.account.infrastructure.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
 
 //Implementação está para domain layer service na arquitetura hexagonal
+@Service
 public class AccountServiceImpl implements AccountService {
 
 

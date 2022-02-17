@@ -6,7 +6,9 @@ import br.com.lab.impacta.account.application.dto.response.AccountBalanceRespons
 import br.com.lab.impacta.account.application.dto.response.DebitAccountResponse;
 import br.com.lab.impacta.account.domain.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AccountApplicationImpl implements AccountApplication {
 
 
